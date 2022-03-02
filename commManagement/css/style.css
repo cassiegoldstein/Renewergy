@@ -1,0 +1,158 @@
+/*
+    style.css
+
+    This is the page that will have all the CSS for our project site.
+    Be sure to follow the order of the rules in this this file.
+*/
+
+
+/* ========================================================= */
+/*  IMPORTS for fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap');
+
+
+/* ========================================================= */
+/*  Page Level Style Rules */
+
+body{
+    font-family: 'Oxygen', sans-serif;
+}
+h2, h3, h4, h5, h6, h7{
+    font-family: 'Domine', sans-serif;
+}
+
+h1{
+    font-family: 'Domine', serif;
+    font-size: 70px;
+    font-weight: 600;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #151f0d; 
+}
+
+h2{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #151f0d; 
+}
+
+
+/* ========================================================= */
+/* Utility Text Style Rules */
+
+/* ---------------------------------------*
+/* Add spacing to text elements */
+
+.text-spacing {
+    padding: 0.25em;
+}
+
+/* ========================================================= */
+/* Extending BS Stlye Rules */
+
+/* --------------------------------------------------------- */
+/* Tabs .borders :: Add borders to tab content */
+
+.tab-content.borders {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0px 0px 5px 5px;
+    padding: 10px;
+}
+
+.nav-tabs {
+    margin-bottom: 0;
+}
+
+.bg-lg{
+    background-color: #99a54c;
+}
+
+
+
+.bg-dg{
+    background-color: #12200a;
+}
+
+
+.bg-brown{
+    background-color: #582F0E;
+}
+
+
+.bg-olive{
+    background-color: #A4AC86;
+}
+
+.bg-db{
+    background-color: #582F0E;
+}
+
+.bg-dg2{
+    background-color: #1f2f12;
+}
+
+.bg-inv{
+    background-color: #687fa1;
+}
+.bg-lb{
+   background-color: #7CACE2;  
+}
+
+.bg-dbl{
+    background-color: #0480D6;
+}
+
+.bg-mb{
+    background-color: #4899E6;
+}
+
+.bg-y{
+    background-color: #F6D413;
+}
+
+.text-brown{
+  color: #543512;  
+}
+
+.text-dg{
+    color: #151f0d;
+}
+.text-white{
+    color: #FFF;
+}
+
+.text-grey{
+    color: #F9F0F9;
+}
+
+
+
+.card-padding {
+    margin-top: 13.5cm;
+}
+
+
+.round{
+    background-color: #1f2f12;
+    max-width: 98%;
+    height: 400px;
+    border-radius: 12px;
+    padding-left: 30px;
+    padding-top:30px
+    padding-right: 30px;
+}
+
+.round2{
+    background-color: #1f2f12;
+    max-width: 98%;
+    height: 570px;
+    border-radius: 12px;
+    padding-left: 30px;
+    padding-top:30px
+    padding-right: 30px;
+}
+
+
